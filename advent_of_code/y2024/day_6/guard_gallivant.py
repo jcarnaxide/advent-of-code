@@ -1,14 +1,9 @@
-from advent_of_code.utils import load_input
+from utilities.common_input import load_file
 
 def part_1():
-    pass
+    print(__file__ + " part_1")
+    matrix = load_file(__file__)
+    print(matrix)
 
 def part_2():
-    pass
-
-if __name__ == "__main__":
-    raw_text = load_input()
-    print(raw_text)
-
-    part_1()
-    # part_2()
+    print(__file__ + " part_2")
